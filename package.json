@@ -19,12 +19,14 @@
   "devDependencies": {
     "@types/amqplib": "^0.5.13",
     "@types/jest": "^24.0.25",
+    "@types/mqtt": "^2.5.0",
     "@types/node": "^13.1.6",
     "jest": "^24.9.0",
     "typescript": "^3.7.4"
   },
   "dependencies": {
-    "amqplib": "^0.5.5"
+    "amqplib": "^0.5.5",
+    "mqtt": "^3.0.0"
   },
   "jest": {
     "browser": false,
